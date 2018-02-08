@@ -11,7 +11,7 @@ var mediancut = class mediancut {
 	constructor (matrix, size = 8) {
 		this.matrix = matrix;
 		this.space = this.matrix[0].length;
-		this.depth = Math.pow(2, new math().nextpow2(size));
+		this.depth = Math.pow(2, Math.ceil(Math.log2(size)));
 		this.median(this.matrix, this.depth, this.tmp = []);
 		this.array = [];
 		for (var i = 0; i < this.tmp.length; i = i + 1) {
