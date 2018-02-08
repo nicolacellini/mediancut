@@ -1,0 +1,2 @@
+# mediancut
+Vector quantization algorithm
