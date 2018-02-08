@@ -3,7 +3,6 @@
 //
 //version = "1.02"
 //author = "Nicola Cellini"
-//compiled = "10 JAN 2018 - 20:30 CET"
 **/
 /*****/
 /*****/
